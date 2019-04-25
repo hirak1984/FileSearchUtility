@@ -7,8 +7,6 @@ import java.io.IOException;
 
 public class SearchInTextFile extends SearchInFileBase {
 
-	private File file;
-
 	public SearchInTextFile(File file, String searchString) {
 		super(file, searchString);
 	}
